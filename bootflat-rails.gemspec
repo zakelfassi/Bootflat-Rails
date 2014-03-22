@@ -4,7 +4,7 @@ require 'bootflat-rails/version'
 
 Gem::Specification.new do |s|
   s.name        = 'bootflat-rails'
-  s.version     = Bootstrap::VERSION
+  s.version     = BootflatRails::VERSION
   s.date        = '2014-03-22'
   s.summary     = "Bootflat on Rails"
   s.description = "Use Bootflat (a flat adaptation of Bootstrap on Rails)"

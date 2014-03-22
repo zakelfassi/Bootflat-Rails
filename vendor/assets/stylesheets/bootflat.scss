@@ -13,35 +13,30 @@
  *
  */
 
-@import
-
-  // Variables, Extends, Mixins
-  "bootflat/global",
-
-  // Base
-  "bootflat/typography",
-  "bootflat/button",
-  "bootflat/button_group",
-  "bootflat/label_badge",
-  "bootflat/tooltip",
-  "bootflat/popover",
-  "bootflat/progress",
-  "bootflat/breadcrumb",
-  "bootflat/pagination",
-  "bootflat/pager",
-  "bootflat/form",
-  "bootflat/checkbox_radio",
-  "bootflat/alert",
-  "bootflat/tab",
-  "bootflat/pill",
-  "bootflat/navbar",
-  "bootflat/list",
-  "bootflat/media_list",
-  "bootflat/modal",
-  "bootflat/well",
-  "bootflat/thumbnail",
-  "bootflat/jumbotron",
-  "bootflat/panel",
-  "bootflat/accordion",
-  "bootflat/footer",
-  "bootflat/dropdown";
+@import "bootflat/global";
+@import "bootflat/typography";
+@import "bootflat/button";
+@import "bootflat/button_group";
+@import "bootflat/label_badge";
+@import "bootflat/tooltip";
+@import "bootflat/popover";
+@import "bootflat/progress";
+@import "bootflat/breadcrumb";
+@import "bootflat/pagination";
+@import "bootflat/pager";
+@import "bootflat/form";
+@import "bootflat/checkbox_radio";
+@import "bootflat/alert";
+@import "bootflat/tab";
+@import "bootflat/pill";
+@import "bootflat/navbar";
+@import "bootflat/list";
+@import "bootflat/media_list";
+@import "bootflat/modal";
+@import "bootflat/well";
+@import "bootflat/thumbnail";
+@import "bootflat/jumbotron";
+@import "bootflat/panel";
+@import "bootflat/accordion";
+@import "bootflat/footer";
+@import "bootflat/dropdown";
