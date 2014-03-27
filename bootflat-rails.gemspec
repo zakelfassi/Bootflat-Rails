@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.date        = '2014-03-22'
   s.summary     = "Bootflat on Rails"
   s.description = "Use Bootflat (a flat adaptation of Bootstrap on Rails)"
-  s.authors     = ["Zak El Fassi", "Youness Adonis", "Mohammed Aboullaite"]
+  s.authors     = ["Zak El Fassi", "Grzegorz Bizon"]
   s.email       = 'z@kelfassi.com'
   s.files	= `git ls-files`.split("\n")
   # s.test_files = `git ls-files -- test/*`.split("\n")
