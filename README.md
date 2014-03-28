@@ -35,6 +35,6 @@ That's pretty much all!
 ### TODO
 
 1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css
--[2. Include a test app (and a style guide on Rails, inspired from [this](http://bootflat.github.io/documentation.html)).]
+~~2. Include a test app (and a style guide on Rails, inspired from [this](http://bootflat.github.io/documentation.html)).~~
 3. Write tests (sure.)
--[4. Fix bugs.]
+~~4. Fix bugs.~~
