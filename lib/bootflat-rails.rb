@@ -1,7 +1,7 @@
 module BootflatRails
   class << self
     def load!
-      require 'bootflat-rails/sass_functions'
+#     require 'bootflat-rails/sass_functions'
 
       if rails?
         require 'sass-rails'
