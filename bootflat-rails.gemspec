@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'sass-rails', '~> 4.0'
   s.add_runtime_dependency 'sass', '~> 3.3'
   s.add_runtime_dependency 'jquery-rails', '~> 3.1'
+  s.add_runtime_dependency 'bootstrap-sass', '~> 3.1'
 end

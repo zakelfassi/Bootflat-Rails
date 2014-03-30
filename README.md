@@ -19,7 +19,6 @@ Also, make sure you're using this branch of sass-rails (as that bootflat could o
 In your `Application.css`:
 
 	...
-	*= require bootstrap.min	
 	*= require bootflat
 	*= require_self
 	*/
@@ -27,14 +26,14 @@ In your `Application.css`:
 And finally, in your `Application.js`:
       
 	...
-	//= require bootstrap.min
+	//= require bootstrap
 	//= require icheck.min
 
 That's pretty much all!
 
 ### TODO
 
-1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css
+1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css -- verify
 ~~2. Include a test app (and a style guide on Rails, inspired from [this](http://bootflat.github.io/documentation.html)).~~
 3. Write tests (sure.)
 ~~4. Fix bugs.~~
