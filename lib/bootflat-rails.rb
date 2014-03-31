@@ -23,7 +23,11 @@ module BootflatRails
     def javascripts_path
       File.join assets_path, 'javascripts'
     end
-    
+
+    def images_path
+      File.join assets_path, 'images'
+    end
+
     def assets_path
       @assets_path ||= File.join gem_path, 'vendor', 'assets'
     end
