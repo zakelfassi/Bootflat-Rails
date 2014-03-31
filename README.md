@@ -29,11 +29,23 @@ And finally, in your `Application.js`:
 	//= require bootstrap
 	//= require icheck.min
 
+An example of using iCheck for radio/checkbox would be:
+
+  $('.checkbox input').iCheck({
+    checkboxClass: 'icheckbox_flat',
+    increaseArea: '20%'
+  });
+  
+  $('.radio input').iCheck({
+    radioClass: 'iradio_flat',
+    increaseArea: '20%'
+  });
+
 That's pretty much all!
 
 ### TODO
 
-1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css -- verify
+~~1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css -- verify~~
 ~~2. Include a test app (and a style guide on Rails, inspired from [this](http://bootflat.github.io/documentation.html)).~~
 3. Write tests (sure.)
 ~~4. Fix bugs.~~

@@ -1,6 +1,6 @@
 // Variables
 //------------------------------------------------------
-$img-src:                "../bootflat/img/check_flat/default.png" !default; 
+$img-src:                "check_flat/default.png" !default; 
 
 // Exports
 //------------------------------------------------------
@@ -24,7 +24,7 @@ $img-src:                "../bootflat/img/check_flat/default.png" !default;
       padding: 0 !important;
       width: 20px;
       height: 20px;
-      background: url($img-src) no-repeat;
+      background: image-url($img-src) no-repeat;
       border: none;
       cursor: pointer;
   }
