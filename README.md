@@ -31,15 +31,15 @@ And finally, in your `Application.js`:
 
 An example of using iCheck for radio/checkbox would be:
 
-  $('.checkbox input').iCheck({
-    checkboxClass: 'icheckbox_flat',
-    increaseArea: '20%'
-  });
-  
-  $('.radio input').iCheck({
-    radioClass: 'iradio_flat',
-    increaseArea: '20%'
-  });
+	$('.checkbox input').iCheck({
+		checkboxClass: 'icheckbox_flat',
+		increaseArea: '20%'
+	});
+	
+	$('.radio input').iCheck({
+		radioClass: 'iradio_flat',
+		increaseArea: '20%'
+	});
 
 That's pretty much all!
 
