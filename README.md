@@ -41,11 +41,15 @@ An example of using iCheck for radio/checkbox would be:
 		increaseArea: '20%'
 	});
 
+You can also add following line to your `Application.js` if you want to apply icheck on all checkboxes and radio buttons: 
+
+	...
+	//= require bootflat_icheck
+
+
 That's pretty much all!
 
 ### TODO
 
-~~1. Rebuild gem to use and depend on twitter-bootstrap3-rails, remove bootstrap.min.js and bootstrap.min.css -- verify~~
-~~2. Include a test app (and a style guide on Rails, inspired from [this](http://bootflat.github.io/documentation.html)).~~
-3. Write tests (sure.)
-~~4. Fix bugs.~~
+1. Write tests (sure.)
+2. Include bootflat_form_for and bootflat_form_tag helpers or use existing gem (ex. [rails-bootstrap-forms](https://github.com/bootstrap-ruby/rails-bootstrap-forms))
