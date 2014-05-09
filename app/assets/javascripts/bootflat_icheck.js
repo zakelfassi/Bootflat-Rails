@@ -1,4 +1,4 @@
-$(function() {
+function ready() {
 
 	$(':checkbox').iCheck({
 		checkboxClass: 'icheckbox_flat',
@@ -10,4 +10,7 @@ $(function() {
 		cursor: true
 	});
 
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready);
