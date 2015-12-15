@@ -49,6 +49,13 @@ You can also add following line to your `Application.js` if you want to apply ic
 
 That's pretty much all!
 
+## Troubleshooting
+
+You may need (Rails 4.1+) to add the following line to an asset initializer (`/initializers/asset.rb`)
+
+	Rails.application.config.assets.precompile << /\.(?:png|jpg|jpeg|gif)\z/
+
+
 ### TODO
 
 1. Write tests (sure.)
